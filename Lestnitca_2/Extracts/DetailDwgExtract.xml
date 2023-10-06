@@ -55,6 +55,12 @@
 <standard key="11371-78" name="11371-78"/>
 <denotation>Шайба C.20.01.08кп.016 ГОСТ 11371-78</denotation>
 <weight>16.36</weight></item></boltSet>
+<profileSection key="RUS_P8645#@§@#P100x50x4" sectionClass="H">
+<weightPerMeter>8700.000000</weightPerMeter>
+<paintAreaPerMeter>289698.000000</paintAreaPerMeter></profileSection>
+<profileSection key="RUS_S30245-3#@§@#SHS200x6" sectionClass="H">
+<weightPerMeter>35820.000000</weightPerMeter>
+<paintAreaPerMeter>779000.000000</paintAreaPerMeter></profileSection>
 <profileSection key="RUS_S30245-3#@§@#SHS160x5" sectionClass="H">
 <weightPerMeter>23830.000000</weightPerMeter>
 <paintAreaPerMeter>623000.000000</paintAreaPerMeter></profileSection>
@@ -65,11 +71,342 @@
 <weightPerMeter>25700.000000</weightPerMeter>
 <paintAreaPerMeter>961396.000000</paintAreaPerMeter></profileSection></tables>
 <parts>
+<mainpart id="56A77" num="СВ2-1" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<proxy ACADID="56A66" basepart="542BE" id="56A65">
+<assemblyWeight>35884.22</assemblyWeight>
+<assemblyExactWeight>35780.51</assemblyExactWeight>
+<collisionSize x="0.000" y="0.000" z="0.000"/>
+<ApprovalStatus>Не установлено</ApprovalStatus>
+<GalvanizingConstructionClass>Нет</GalvanizingConstructionClass>
+<GalvanizingDetailClass>Нет</GalvanizingDetailClass>
+<GalvanizingConfidence>Нет</GalvanizingConfidence>
+<singlepart id="56A6D" num="29" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="542BF" class="Beam" dstvName="Гн.  100x50x4" id="542BE" name="Гн.  100x50x4">
+<explicitQuantity>1</explicitQuantity>
+<role key="Vertical_Bracing#1" name="Вертикальная связь"/>
+<length>3782.472</length>
+<paintArea>1095774.462</paintArea>
+<ObjectTopLevel>3236.749</ObjectTopLevel>
+<ObjectBottomLevel>6.178</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>32907.50</weight>
+<exactWeight>32907.50</exactWeight>
+<weightPerMeter>8700.00</weightPerMeter>
+<density>7850.00</density>
+<preliminaryNum>СВ2</preliminaryNum>
+<section key="RUS_P8645#@§@#P100x50x4" name="Гн.  100x50x4"/>
+<sysLength>4539.531</sysLength>
+<sawLength>3782.472</sawLength>
+<angleX1>0.0000</angleX1>
+<angleY1>0.0000</angleY1>
+<angleX2>0.0000</angleX2>
+<angleY2>0.0000</angleY2>
+<SawCutInfo>-1</SawCutInfo>
+<SawLengthFlangeAtStart>0.000</SawLengthFlangeAtStart>
+<SawLengthWebAtStart>0.000</SawLengthWebAtStart>
+<SawLengthFlangeAtEnd>0.000</SawLengthFlangeAtEnd>
+<SawLengthWebAtEnd>0.000</SawLengthWebAtEnd>
+<ElementID>9397</ElementID></part></singlepart>
+<singlepart id="56A6F" num="31" quantity="2">
+<explicitQuantity>2</explicitQuantity>
+<part ACADID="59BB3" class="Plate" dstvName="t 10" id="59BB2" name="t 10x70x120">
+<explicitQuantity>1</explicitQuantity>
+<role key="Cover#3" name="Покрытие"/>
+<length>120.000</length>
+<paintArea>20600.000</paintArea>
+<ObjectTopLevel>3250.577</ObjectTopLevel>
+<ObjectBottomLevel>3177.020</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>659.40</weight>
+<exactWeight>659.40</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СВ2</preliminaryNum>
+<thickness>10.000</thickness>
+<width>70.000</width>
+<area1>8400.000</area1>
+<area2>8400.000</area2>
+<contourLength>380.000</contourLength>
+<ElementID>9849</ElementID>
+<ElementID>9773</ElementID></part>
+<equalpart ACADID="59B2F" id="59B2E" name="t 10x70x120">
+<explicitQuantity>1</explicitQuantity>
+<preliminaryNum>СВ2</preliminaryNum></equalpart></singlepart>
+<singlepart id="56A6E" num="30" quantity="2">
+<explicitQuantity>2</explicitQuantity>
+<part ACADID="59BA4" class="Plate" dstvName="t 8" id="59BA3" name="t 8x110x120">
+<explicitQuantity>1</explicitQuantity>
+<role key="SandwichPlate#1" name="Пластина пакета"/>
+<length>120.000</length>
+<paintArea>30080.000</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>3342.948</ObjectTopLevel>
+<ObjectBottomLevel>3185.418</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>828.96</weight>
+<exactWeight>777.10</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СВ2</preliminaryNum>
+<thickness>8.000</thickness>
+<width>110.000</width>
+<area1>13200.000</area1>
+<area2>13200.000</area2>
+<contourLength>460.000</contourLength>
+<ElementID>9848</ElementID>
+<ElementID>9772</ElementID></part>
+<equalpart ACADID="59B20" id="59B1F" name="t 8x110x120">
+<explicitQuantity>1</explicitQuantity>
+<preliminaryNum>СВ2</preliminaryNum></equalpart></singlepart></proxy>
+<boltPatternOnSite ACADID="59BA8" class="BoltPattern" id="59BA7" name="M20 x 65 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М20 - 6gx65.88 ГОСТ 7798-70" num="26" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>2</numBolts>
+<role key="Bolt#1" name="Болт"/>
+<standard key="7798-70" name="7798-70"/>
+<diameter>20.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>65.000</boltLength>
+<fitLength>18.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>56A6E,56A65;56A73,4F9E2;</ConnectedPartsIds></boltPatternOnSite></mainpart>
+<mainpart id="56A78" num="СВ1-1" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<proxy ACADID="56A68" basepart="542E1" id="56A67">
+<assemblyWeight>40775.36</assemblyWeight>
+<assemblyExactWeight>40676.06</assemblyExactWeight>
+<collisionSize x="0.000" y="0.000" z="0.000"/>
+<ApprovalStatus>Не установлено</ApprovalStatus>
+<GalvanizingConstructionClass>Нет</GalvanizingConstructionClass>
+<GalvanizingDetailClass>Нет</GalvanizingDetailClass>
+<GalvanizingConfidence>Нет</GalvanizingConfidence>
+<singlepart id="56A6C" num="28" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="542E2" class="Beam" dstvName="Гн.  100x50x4" id="542E1" name="Гн.  100x50x4">
+<explicitQuantity>1</explicitQuantity>
+<role key="Vertical_Bracing#1" name="Вертикальная связь"/>
+<length>4344.671</length>
+<paintArea>1258642.589</paintArea>
+<ObjectTopLevel>3897.431</ObjectTopLevel>
+<ObjectBottomLevel>27.552</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>37798.64</weight>
+<exactWeight>37798.64</exactWeight>
+<weightPerMeter>8700.00</weightPerMeter>
+<density>7850.00</density>
+<preliminaryNum>СВ1</preliminaryNum>
+<section key="RUS_P8645#@§@#P100x50x4" name="Гн.  100x50x4"/>
+<sysLength>5185.408</sysLength>
+<sawLength>4344.671</sawLength>
+<angleX1>0.0000</angleX1>
+<angleY1>0.0000</angleY1>
+<angleX2>0.0000</angleX2>
+<angleY2>0.0000</angleY2>
+<SawCutInfo>-1</SawCutInfo>
+<SawLengthFlangeAtStart>0.000</SawLengthFlangeAtStart>
+<SawLengthWebAtStart>0.000</SawLengthWebAtStart>
+<SawLengthFlangeAtEnd>0.000</SawLengthFlangeAtEnd>
+<SawLengthWebAtEnd>0.000</SawLengthWebAtEnd>
+<ElementID>9404</ElementID></part></singlepart>
+<singlepart id="56A6E" num="30" quantity="2">
+<explicitQuantity>2</explicitQuantity>
+<part ACADID="59C61" class="Plate" dstvName="t 8" id="59C60" name="t 8x110x120">
+<explicitQuantity>1</explicitQuantity>
+<role key="Tab_Plate#0" name="Пластина-ушко"/>
+<length>120.000</length>
+<paintArea>30080.000</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>4007.759</ObjectTopLevel>
+<ObjectBottomLevel>3853.937</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>828.96</weight>
+<exactWeight>777.10</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СВ1</preliminaryNum>
+<thickness>8.000</thickness>
+<width>110.000</width>
+<area1>13200.000</area1>
+<area2>13200.000</area2>
+<contourLength>460.000</contourLength>
+<ElementID>9861</ElementID>
+<ElementID>9501</ElementID></part>
+<equalpart ACADID="59B62" id="59B61" name="t 8x110x120">
+<explicitQuantity>1</explicitQuantity>
+<preliminaryNum>СВ1</preliminaryNum></equalpart></singlepart>
+<singlepart id="56A6F" num="31" quantity="2">
+<explicitQuantity>2</explicitQuantity>
+<part ACADID="59C5F" class="Plate" dstvName="t 10" id="59C5E" name="t 10x70x120">
+<explicitQuantity>1</explicitQuantity>
+<role key="Coverplate#0" name="Пластина-накладка"/>
+<length>120.000</length>
+<paintArea>20600.000</paintArea>
+<ObjectTopLevel>3910.983</ObjectTopLevel>
+<ObjectBottomLevel>3845.139</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>659.40</weight>
+<exactWeight>659.40</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СВ1</preliminaryNum>
+<thickness>10.000</thickness>
+<width>70.000</width>
+<area1>8400.000</area1>
+<area2>8400.000</area2>
+<contourLength>380.000</contourLength>
+<ElementID>9860</ElementID>
+<ElementID>9525</ElementID></part>
+<equalpart ACADID="59B71" id="59B70" name="t 10x70x120">
+<explicitQuantity>1</explicitQuantity>
+<preliminaryNum>СВ1</preliminaryNum></equalpart></singlepart></proxy></mainpart>
+<mainpart id="59979" num="СВ3-1" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<proxy ACADID="59963" basepart="58198" id="59962">
+<assemblyWeight>6919.80</assemblyWeight>
+<assemblyExactWeight>6085.48</assemblyExactWeight>
+<collisionSize x="0.000" y="0.000" z="0.000"/>
+<ApprovalStatus>Не установлено</ApprovalStatus>
+<GalvanizingConstructionClass>Нет</GalvanizingConstructionClass>
+<GalvanizingDetailClass>Нет</GalvanizingDetailClass>
+<GalvanizingConfidence>Нет</GalvanizingConfidence>
+<singlepart id="59970" num="42" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="58199" class="Beam" dstvName="Гн.  100x50x4" id="58198" name="Гн.  100x50x4">
+<explicitQuantity>1</explicitQuantity>
+<role key="Tie beam" name="Связь"/>
+<length>312.204</length>
+<paintArea>90444.929</paintArea>
+<ObjectTopLevel>4334.669</ObjectTopLevel>
+<ObjectBottomLevel>4040.937</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>2716.18</weight>
+<exactWeight>2716.18</exactWeight>
+<weightPerMeter>8700.00</weightPerMeter>
+<density>7850.00</density>
+<preliminaryNum>СВ3</preliminaryNum>
+<section key="RUS_P8645#@§@#P100x50x4" name="Гн.  100x50x4"/>
+<sysLength>619.638</sysLength>
+<sawLength>312.204</sawLength>
+<angleX1>0.0000</angleX1>
+<angleY1>0.0000</angleY1>
+<angleX2>0.0000</angleX2>
+<angleY2>0.0000</angleY2>
+<SawCutInfo>-1</SawCutInfo>
+<SawLengthFlangeAtStart>0.000</SawLengthFlangeAtStart>
+<SawLengthWebAtStart>0.000</SawLengthWebAtStart>
+<SawLengthFlangeAtEnd>0.000</SawLengthFlangeAtEnd>
+<SawLengthWebAtEnd>0.000</SawLengthWebAtEnd>
+<ElementID>10064</ElementID></part></singlepart>
+<singlepart id="56A6E" num="30" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="59C97" class="Plate" dstvName="t 8" id="59C96" name="t 8x110x120">
+<explicitQuantity>1</explicitQuantity>
+<role key="Tab_Plate#0" name="Пластина-ушко"/>
+<length>120.000</length>
+<paintArea>30080.000</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>4110.341</ObjectTopLevel>
+<ObjectBottomLevel>3947.834</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>828.96</weight>
+<exactWeight>777.10</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СВ3</preliminaryNum>
+<thickness>8.000</thickness>
+<width>110.000</width>
+<area1>13200.000</area1>
+<area2>13200.000</area2>
+<contourLength>460.000</contourLength>
+<ElementID>10330</ElementID></part></singlepart>
+<singlepart id="56A6F" num="31" quantity="2">
+<explicitQuantity>2</explicitQuantity>
+<part ACADID="59C95" class="Plate" dstvName="t 10" id="59C94" name="t 10x70x120">
+<explicitQuantity>1</explicitQuantity>
+<role key="Coverplate#0" name="Пластина-накладка"/>
+<length>120.000</length>
+<paintArea>20600.000</paintArea>
+<ObjectTopLevel>4117.520</ObjectTopLevel>
+<ObjectBottomLevel>4026.795</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>659.40</weight>
+<exactWeight>659.40</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СВ3</preliminaryNum>
+<thickness>10.000</thickness>
+<width>70.000</width>
+<area1>8400.000</area1>
+<area2>8400.000</area2>
+<contourLength>380.000</contourLength>
+<ElementID>10329</ElementID>
+<ElementID>10486</ElementID></part>
+<equalpart ACADID="59AFE" id="59AFF" name="t 10x70x120">
+<explicitQuantity>1</explicitQuantity>
+<preliminaryNum>СВ3</preliminaryNum></equalpart></singlepart>
+<singlepart id="59973" num="45" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="598EA" class="Plate" dstvName="t 8" id="598E9" name="t 8x160x205">
+<explicitQuantity>1</explicitQuantity>
+<length>205.000</length>
+<paintArea>71308.262</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>4475.000</ObjectTopLevel>
+<ObjectBottomLevel>4270.000</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>2055.86</weight>
+<exactWeight>1273.40</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>СВ3</preliminaryNum>
+<thickness>8.000</thickness>
+<width>159.691</width>
+<area1>32736.605</area1>
+<area2>32736.605</area2>
+<contourLength>729.382</contourLength>
+<ElementID>10469</ElementID></part></singlepart></proxy>
+<boltPatternOnSite ACADID="59CA9" class="BoltPattern" id="59CA8" name="M20 x 65 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М20 - 6gx65.88 ГОСТ 7798-70" num="26" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>2</numBolts>
+<role key="Bolt#2" name="Болт"/>
+<standard key="7798-70" name="7798-70"/>
+<diameter>20.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>65.000</boltLength>
+<fitLength>18.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>56A6E,59962;59972,4F9E0;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="59941" class="BoltPattern" id="59940" name="M20 x 65 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М20 - 6gx65.88 ГОСТ 7798-70" num="26" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>2</numBolts>
+<standard key="7798-70" name="7798-70"/>
+<diameter>20.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>65.000</boltLength>
+<fitLength>18.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>59973,59962;59971,53F58;</ConnectedPartsIds></boltPatternOnSite></mainpart>
 <mainpart id="53FED" num="Ст1-1" quantity="1">
 <explicitQuantity>1</explicitQuantity>
 <proxy ACADID="4F9E1" basepart="4F99A" id="4F9E0">
-<assemblyWeight>135142.82</assemblyWeight>
-<assemblyExactWeight>133494.63</assemblyExactWeight>
+<assemblyWeight>205113.56</assemblyWeight>
+<assemblyExactWeight>200160.60</assemblyExactWeight>
 <collisionSize x="0.000" y="0.000" z="0.000"/>
 <ApprovalStatus>Не установлено</ApprovalStatus>
 <GalvanizingConstructionClass>Нет</GalvanizingConstructionClass>
@@ -77,23 +414,23 @@
 <GalvanizingConfidence>Нет</GalvanizingConfidence>
 <singlepart id="53FCB" num="7" quantity="1">
 <explicitQuantity>1</explicitQuantity>
-<part ACADID="4F99B" class="Beam" dstvName="Гн.&#x9;160x5" id="4F99A" name="Гн.&#x9;160x5">
+<part ACADID="4F99B" class="Beam" dstvName="Гн.&#x9;200x6" id="4F99A" name="Гн.&#x9;200x6">
 <explicitQuantity>1</explicitQuantity>
 <role key="Landingpost" name="Стойка"/>
-<length>4531.998</length>
-<paintArea>2823434.993</paintArea>
+<length>4531.999</length>
+<paintArea>3530427.010</paintArea>
 <ObjectTopLevel>4251.998</ObjectTopLevel>
-<ObjectBottomLevel>-280.000</ObjectBottomLevel>
+<ObjectBottomLevel>-280.001</ObjectBottomLevel>
 <material key="C235" name="С235"/>
 <coating key="grundiert" name="Грунтовка"/>
-<weight>107997.52</weight>
-<exactWeight>107997.49</exactWeight>
-<weightPerMeter>23830.00</weightPerMeter>
+<weight>162336.19</weight>
+<exactWeight>162336.13</exactWeight>
+<weightPerMeter>35820.00</weightPerMeter>
 <density>7850.00</density>
 <preliminaryNum>Ст1</preliminaryNum>
-<section key="RUS_S30245-3#@§@#SHS160x5" name="Гн.&#x9;160x5"/>
+<section key="RUS_S30245-3#@§@#SHS200x6" name="Гн.&#x9;200x6"/>
 <sysLength>4562.000</sysLength>
-<sawLength>4531.998</sawLength>
+<sawLength>4531.999</sawLength>
 <angleX1>0.0000</angleX1>
 <angleY1>0.0000</angleY1>
 <angleX2>0.0010</angleX2>
@@ -104,6 +441,94 @@
 <SawLengthFlangeAtEnd>0.000</SawLengthFlangeAtEnd>
 <SawLengthWebAtEnd>0.000</SawLengthWebAtEnd>
 <ElementID>9122</ElementID></part></singlepart>
+<singlepart id="59972" num="44" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="59C99" class="Plate" dstvName="t 10" id="59C98" name="t 10x140x234">
+<explicitQuantity>1</explicitQuantity>
+<role key="Gusset" name="Узловая фасонка"/>
+<length>234.041</length>
+<paintArea>73012.340</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>4110.125</ObjectTopLevel>
+<ObjectBottomLevel>3844.653</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>2572.11</weight>
+<exactWeight>1714.08</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>Ст1</preliminaryNum>
+<thickness>10.000</thickness>
+<width>140.000</width>
+<area1>32765.758</area1>
+<area2>32765.758</area2>
+<contourLength>748.082</contourLength>
+<ElementID>10331</ElementID></part></singlepart>
+<singlepart id="57800" num="33" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="59C63" class="Plate" dstvName="t 10" id="59C62" name="t 10x140x341">
+<explicitQuantity>1</explicitQuantity>
+<role key="Gusset" name="Узловая фасонка"/>
+<length>340.595</length>
+<paintArea>104978.362</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>4224.182</ObjectTopLevel>
+<ObjectBottomLevel>3857.981</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>3743.13</weight>
+<exactWeight>2254.55</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>Ст1</preliminaryNum>
+<thickness>10.000</thickness>
+<width>140.000</width>
+<area1>47683.235</area1>
+<area2>47683.235</area2>
+<contourLength>961.189</contourLength>
+<ElementID>9862</ElementID></part></singlepart>
+<singlepart id="56A72" num="34" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="59B1E" class="Plate" dstvName="t 10" id="59B1D" name="t 10x163x335">
+<explicitQuantity>1</explicitQuantity>
+<role key="Gusset" name="Узловая фасонка"/>
+<length>334.540</length>
+<paintArea>119331.400</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>54.542</ObjectTopLevel>
+<ObjectBottomLevel>-279.998</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>4292.82</weight>
+<exactWeight>3334.71</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>Ст1</preliminaryNum>
+<thickness>10.000</thickness>
+<width>163.465</width>
+<area1>54685.650</area1>
+<area2>54685.650</area2>
+<contourLength>996.010</contourLength>
+<ElementID>9703</ElementID></part></singlepart>
+<singlepart id="57802" num="38" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="56AC8" class="Plate" dstvName="t 20" id="56AC7" name="t 20x420x420">
+<explicitQuantity>1</explicitQuantity>
+<role key="Baseplate" name="Опорная плита"/>
+<length>420.000</length>
+<paintArea>386400.000</paintArea>
+<numHoles>4</numHoles>
+<ObjectTopLevel>-279.996</ObjectTopLevel>
+<ObjectBottomLevel>-300.004</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>27694.80</weight>
+<exactWeight>26046.63</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>Ст1</preliminaryNum>
+<thickness>20.000</thickness>
+<width>420.000</width>
+<area1>176400.000</area1>
+<area2>176400.000</area2>
+<contourLength>1680.000</contourLength>
+<ElementID>9141</ElementID></part></singlepart>
 <singlepart id="53FDA" num="22" quantity="1">
 <explicitQuantity>1</explicitQuantity>
 <part ACADID="519FC" class="Plate" dstvName="t 10" id="519FB" name="t 10x190x300">
@@ -123,34 +548,42 @@
 <area1>57000.000</area1>
 <area2>57000.000</area2>
 <contourLength>980.000</contourLength>
-<ElementID>9298</ElementID></part></singlepart>
-<singlepart id="53FDB" num="23" quantity="1">
+<ElementID>9298</ElementID></part></singlepart></proxy>
+<boltPatternOnSite ACADID="59C73" class="BoltPattern" id="59C72" name="M20 x 65 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М20 - 6gx65.88 ГОСТ 7798-70" num="26" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
-<part ACADID="4FE72" class="Plate" dstvName="t 20" id="4FE71" name="t 20x380x380">
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>2</numBolts>
+<role key="Bolt#2" name="Болт"/>
+<standard key="7798-70" name="7798-70"/>
+<diameter>20.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>65.000</boltLength>
+<fitLength>18.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>57800,4F9E0;56A6E,56A67;</ConnectedPartsIds></boltPatternOnSite>
+<boltPatternOnSite ACADID="59B24" class="BoltPattern" id="59B23" name="M20 x 65 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М20 - 6gx65.88 ГОСТ 7798-70" num="26" setBoltsType="1" setkey="1">
 <explicitQuantity>1</explicitQuantity>
-<role key="Baseplate" name="Опорная плита"/>
-<length>380.000</length>
-<paintArea>319200.000</paintArea>
-<numHoles>4</numHoles>
-<ObjectTopLevel>-279.997</ObjectTopLevel>
-<ObjectBottomLevel>-300.003</ObjectBottomLevel>
-<material key="C235" name="С235"/>
-<coating key="grundiert" name="Грунтовка"/>
-<weight>22670.80</weight>
-<exactWeight>21022.64</exactWeight>
-<density>7850.00</density>
-<preliminaryNum>Ст1</preliminaryNum>
-<thickness>20.000</thickness>
-<width>380.000</width>
-<area1>144400.000</area1>
-<area2>144400.000</area2>
-<contourLength>1520.000</contourLength>
-<ElementID>9141</ElementID></part></singlepart></proxy></mainpart>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>2</numBolts>
+<role key="Bolt#1" name="Болт"/>
+<standard key="7798-70" name="7798-70"/>
+<diameter>20.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>65.000</boltLength>
+<fitLength>18.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>56A72,4F9E0;56A6E,56A65;</ConnectedPartsIds></boltPatternOnSite></mainpart>
 <mainpart id="53FEE" num="Ст2-1" quantity="1">
 <explicitQuantity>1</explicitQuantity>
 <proxy ACADID="4F9E3" basepart="4F99C" id="4F9E2">
-<assemblyWeight>117270.31</assemblyWeight>
-<assemblyExactWeight>115622.13</assemblyExactWeight>
+<assemblyWeight>125845.77</assemblyWeight>
+<assemblyExactWeight>121323.80</assemblyExactWeight>
 <collisionSize x="0.000" y="0.000" z="0.000"/>
 <ApprovalStatus>Не установлено</ApprovalStatus>
 <GalvanizingConstructionClass>Нет</GalvanizingConstructionClass>
@@ -185,6 +618,50 @@
 <SawLengthFlangeAtEnd>0.000</SawLengthFlangeAtEnd>
 <SawLengthWebAtEnd>0.000</SawLengthWebAtEnd>
 <ElementID>9123</ElementID></part></singlepart>
+<singlepart id="56A73" num="35" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="59BA2" class="Plate" dstvName="t 10" id="59BA1" name="t 10x163x314">
+<explicitQuantity>1</explicitQuantity>
+<role key="Gusset" name="Узловая фасонка"/>
+<length>313.614</length>
+<paintArea>112071.555</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>3501.999</ObjectTopLevel>
+<ObjectBottomLevel>3188.385</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>4024.30</weight>
+<exactWeight>2224.48</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>Ст2</preliminaryNum>
+<thickness>10.000</thickness>
+<width>163.465</width>
+<area1>51264.987</area1>
+<area2>51264.987</area2>
+<contourLength>954.158</contourLength>
+<ElementID>9843</ElementID></part></singlepart>
+<singlepart id="56A70" num="32" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="59B60" class="Plate" dstvName="t 10" id="59B5F" name="t 10x162x358">
+<explicitQuantity>1</explicitQuantity>
+<role key="Gusset" name="Узловая фасонка"/>
+<length>358.080</length>
+<paintArea>126352.933</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>78.079</ObjectTopLevel>
+<ObjectBottomLevel>-280.002</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>4551.16</weight>
+<exactWeight>3477.18</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>Ст2</preliminaryNum>
+<thickness>10.000</thickness>
+<width>161.909</width>
+<area1>57976.569</area1>
+<area2>57976.569</area2>
+<contourLength>1039.979</contourLength>
+<ElementID>9411</ElementID></part></singlepart>
 <singlepart id="53FDA" num="22" quantity="1">
 <explicitQuantity>1</explicitQuantity>
 <part ACADID="51F7B" class="Plate" dstvName="t 10" id="51F7D" name="t 10x190x300">
@@ -226,7 +703,22 @@
 <area1>144400.000</area1>
 <area2>144400.000</area2>
 <contourLength>1520.000</contourLength>
-<ElementID>9156</ElementID></part></singlepart></proxy></mainpart>
+<ElementID>9156</ElementID></part></singlepart></proxy>
+<boltPatternOnSite ACADID="59B66" class="BoltPattern" id="59B65" name="M20 x 65 7798-70 8.8 - Нет - 2Ш2Г" nameBolt="Болт М20 - 6gx65.88 ГОСТ 7798-70" num="26" setBoltsType="1" setkey="1">
+<explicitQuantity>1</explicitQuantity>
+<set key="2Na2W" name="2Ш2Г"/>
+<numBolts>2</numBolts>
+<role key="Bolt#1" name="Болт"/>
+<standard key="7798-70" name="7798-70"/>
+<diameter>20.000</diameter>
+<material key="8.8" name="8.8"/>
+<density>0.00</density>
+<boltLength>65.000</boltLength>
+<fitLength>18.000</fitLength>
+<fitLengthIncrement>0.000</fitLengthIncrement>
+<holeTolerance>3.000</holeTolerance>
+<mountLocation>0</mountLocation>
+<ConnectedPartsIds>56A70,4F9E2;56A6E,56A67;</ConnectedPartsIds></boltPatternOnSite></mainpart>
 <mainpart id="53FEF" num="Ст3-1" quantity="1">
 <explicitQuantity>1</explicitQuantity>
 <proxy ACADID="4F9E5" basepart="4F99E" id="4F9E4">
@@ -738,8 +1230,8 @@
 <mainpart id="53FF3" num="ЛМ7-1" quantity="1">
 <explicitQuantity>1</explicitQuantity>
 <proxy ACADID="53F59" basepart="51427" id="53F58">
-<assemblyWeight>50164.14</assemblyWeight>
-<assemblyExactWeight>47550.54</assemblyExactWeight>
+<assemblyWeight>51545.74</assemblyWeight>
+<assemblyExactWeight>48855.16</assemblyExactWeight>
 <collisionSize x="0.000" y="0.000" z="0.000"/>
 <ApprovalStatus>Не установлено</ApprovalStatus>
 <GalvanizingConstructionClass>Нет</GalvanizingConstructionClass>
@@ -774,6 +1266,28 @@
 <SawLengthFlangeAtEnd>90.000</SawLengthFlangeAtEnd>
 <SawLengthWebAtEnd>0.000</SawLengthWebAtEnd>
 <ElementID>9293</ElementID></part></singlepart>
+<singlepart id="59971" num="43" quantity="1">
+<explicitQuantity>1</explicitQuantity>
+<part ACADID="59ADE" class="Plate" dstvName="t 8" id="59ADD" name="t 8x100x220">
+<explicitQuantity>1</explicitQuantity>
+<role key="Plate" name="Пластина"/>
+<length>220.000</length>
+<paintArea>49120.000</paintArea>
+<numHoles>2</numHoles>
+<ObjectTopLevel>4500.000</ObjectTopLevel>
+<ObjectBottomLevel>4280.000</ObjectBottomLevel>
+<material key="C235" name="С235"/>
+<coating key="grundiert" name="Грунтовка"/>
+<weight>1381.60</weight>
+<exactWeight>1304.62</exactWeight>
+<density>7850.00</density>
+<preliminaryNum>ЛМ7</preliminaryNum>
+<thickness>8.000</thickness>
+<width>100.000</width>
+<area1>22000.000</area1>
+<area2>22000.000</area2>
+<contourLength>640.000</contourLength>
+<ElementID>10351</ElementID></part></singlepart>
 <singlepart id="53FC6" num="2" quantity="2">
 <explicitQuantity>2</explicitQuantity>
 <part ACADID="53F37" class="Beam" dstvName="С24П" id="53F38" name="С24П">
@@ -1453,228 +1967,318 @@
 <assemblyExactWeight>37992.73</assemblyExactWeight></equalpart></mainpart></parts>
 <DerivedDocuments>
 <Details>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="24" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.24.dwg" id="541C1" prototypeName="RUS-STAMP-A3">
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="24" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.24.dwg" id="541C1" prototypeName="RUS-STAMP-A3">
 <SingleParts>
 <Item>12</Item></SingleParts>
 <DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:20" Status="Соответствует модели" Title="поз.12 (1 шт.) С24Пx4025 С235 " drawingType="1" id="541C0">
 <SingleParts>
 <Item>12</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="22" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.22.dwg" id="541B9" prototypeName="RUS-STAMP-A3">
-<SingleParts>
-<Item>10</Item></SingleParts>
-<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:20" Status="Соответствует модели" Title="поз.10 (1 шт.) С24Пx4417 С235 " drawingType="1" id="541B8">
-<SingleParts>
-<Item>10</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="08" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ5-1 л.08.dwg" id="5415F" prototypeName="RUS-STAMP-KMD-A3-H">
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="05.10.2023" drawingNumber="42" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="СВ2-1 л.42.dwg" id="56A91" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>СВ2-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Балка, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.09.2023, 13:49:33]" Scale="1:10" Status="Соответствует модели" Title="Марка СВ2-1 (1 шт.)" drawingType="2" id="56A90">
+<MainParts>
+<Item>СВ2-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="08" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ5-1 л.08.dwg" id="5415F" prototypeName="RUS-STAMP-KMD-A3-H">
 <MainParts>
 <Item>ЛМ5-1</Item></MainParts>
 <DetailObject DetailName="2F49" DrawingStyle="Косоур - спереди" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [25.09.2023, 14:42:48]" Scale="1:20" Status="Соответствует модели" Title="Косоур ЛМ5-1 (1 шт.)" drawingType="2" id="5415E">
 <MainParts>
 <Item>ЛМ5-1</Item></MainParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="07" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ4-1 л.07.dwg" id="54157" prototypeName="RUS-STAMP-KMD-A3-H">
-<MainParts>
-<Item>ЛМ4-1</Item></MainParts>
-<DetailObject DetailName="2F49" DrawingStyle="Косоур - спереди" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [25.09.2023, 14:42:48]" Scale="1:20" Status="Соответствует модели" Title="Косоур ЛМ4-1 (1 шт.)" drawingType="2" id="54156">
-<MainParts>
-<Item>ЛМ4-1</Item></MainParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="37" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.37.dwg" id="541F6" prototypeName="RUS-STAMP-KMD-A4-V">
-<SingleParts>
-<Item>25</Item></SingleParts>
-<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Пластины По № поз. На отд.листах A4 [25.09.2023, 16:31:56]" Scale="1:5" Status="Соответствует модели" Title="поз.25 (2 шт.) t8x185x140 С235 " drawingType="1" id="541F5">
-<SingleParts>
-<Item>25</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="20" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.20.dwg" id="541B1" prototypeName="RUS-STAMP-A3">
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="20" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.20.dwg" id="541B1" prototypeName="RUS-STAMP-A3">
 <SingleParts>
 <Item>8</Item></SingleParts>
 <DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.8 (1 шт.) Гн.&#x9;160x5x3782 С235 " drawingType="1" id="541B0">
 <SingleParts>
 <Item>8</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="35" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.35.dwg" id="541EE" prototypeName="RUS-STAMP-KMD-A4-V">
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="37" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.37.dwg" id="541F6" prototypeName="RUS-STAMP-KMD-A4-V">
 <SingleParts>
-<Item>23</Item></SingleParts>
-<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Пластины По № поз. На отд.листах A4 [25.09.2023, 16:31:56]" Scale="1:5" Status="Соответствует модели" Title="поз.23 (3 шт.) t20x380x380 С235 " drawingType="1" id="541ED">
+<Item>25</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Пластины По № поз. На отд.листах A4 [25.09.2023, 16:31:56]" Scale="1:5" Status="Соответствует модели" Title="поз.25 (2 шт.) t8x185x140 С235 " drawingType="1" id="541F5">
 <SingleParts>
-<Item>23</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="26" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.26.dwg" id="541C9" prototypeName="RUS-STAMP-A3">
+<Item>25</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="06.10.2023" drawingNumber="54" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.54.dwg" id="59CE2" prototypeName="RUS-STAMP-A3">
 <SingleParts>
-<Item>14</Item></SingleParts>
-<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:20" Status="Соответствует модели" Title="поз.14 (1 шт.) С24Пx1734 С235 " drawingType="1" id="541C8">
+<Item>42</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Эл-ты По № поз. На отд.листах A3 [06.10.2023, 11:27:50]" Scale="1:5" Status="Соответствует модели" Title="поз.42 (1 шт.) Гн.  100x50x4x312 С235 " drawingType="1" id="59CE1">
 <SingleParts>
-<Item>14</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="19" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.19.dwg" id="541AD" prototypeName="RUS-STAMP-A3">
-<SingleParts>
-<Item>7</Item></SingleParts>
-<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.7 (1 шт.) Гн.&#x9;160x5x4532 С235 " drawingType="1" id="541AC">
-<SingleParts>
-<Item>7</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="11" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Ст2-1 л.11.dwg" id="5404F" prototypeName="RUS-STAMP-KMD-A3-H">
-<MainParts>
-<Item>Ст2-1</Item></MainParts>
-<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Все Гл.Профили По № поз. На отд.листах A3 [25.09.2023, 14:16:52]" Scale="1:20" Status="Соответствует модели" Title="Марка Ст2-1 (1 шт.)" drawingType="2" id="5404E">
-<MainParts>
-<Item>Ст2-1</Item></MainParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="32" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.32.dwg" id="541E2" prototypeName="RUS-STAMP-KMD-A4-V">
+<Item>42</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="32" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.32.dwg" id="541E2" prototypeName="RUS-STAMP-KMD-A4-V">
 <SingleParts>
 <Item>20</Item></SingleParts>
 <DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Пластины По № поз. На отд.листах A4 [25.09.2023, 16:31:56]" Scale="1:5" Status="Соответствует модели" Title="поз.20 (10 шт.) t8x185x170 С235 " drawingType="1" id="541E1">
 <SingleParts>
 <Item>20</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="17" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.17.dwg" id="541A5" prototypeName="RUS-STAMP-A3">
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="06.10.2023" drawingNumber="38" drawingType="0" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Общий вид.dwg" id="5421B" prototypeName="RUS-STAMP-A3 — копия">
+<DetailObject DetailName="23CA" DrawingStyle="Вид В маркировка КМД" Scale="1:50" Status="Соответствует модели" Title="Общий вид" drawingType="0" id="5421A"/></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="45" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.45.dwg" id="56AA2" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>32</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.09.2023, 14:03:33]" Scale="1:5" Status="Соответствует модели" Title="поз.32 (1 шт.) t10x358x162 С235 " drawingType="1" id="56AA1">
+<SingleParts>
+<Item>32</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="07" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ4-1 л.07.dwg" id="54157" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>ЛМ4-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Косоур - спереди" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [25.09.2023, 14:42:48]" Scale="1:20" Status="Соответствует модели" Title="Косоур ЛМ4-1 (1 шт.)" drawingType="2" id="54156">
+<MainParts>
+<Item>ЛМ4-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="18" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.18.dwg" id="541A9" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>6</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.6 (2 шт.) С24Пx348 С235 " drawingType="1" id="541A8">
+<SingleParts>
+<Item>6</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="17" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.17.dwg" id="541A5" prototypeName="RUS-STAMP-A3">
 <SingleParts>
 <Item>5</Item></SingleParts>
 <DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.5 (2 шт.) С24Пx348 С235 " drawingType="1" id="541A4">
 <SingleParts>
 <Item>5</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="02" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Б1-2 л.02.dwg" id="54011" prototypeName="RUS-STAMP-KMD-A3-H">
-<MainParts>
-<Item>Б1-2</Item></MainParts>
-<DetailObject DetailName="2F49" DrawingStyle="Процесс - Балка, разрезы автоматически" ProcessDescription="Все Гл.Профили По № поз. На отд.листах A3 [25.09.2023, 14:16:52]" Scale="1:10" Status="Соответствует модели" Title="Марка Б1-2 (1 шт.)" drawingType="2" id="54010">
-<MainParts>
-<Item>Б1-2</Item></MainParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="30" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.30.dwg" id="541D9" prototypeName="RUS-STAMP-A3">
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="06.10.2023" drawingNumber="50" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.50.dwg" id="59C41" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>44</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [05.10.2023, 16:07:04]" Scale="1:5" Status="Соответствует модели" Title="поз.44 (1 шт.) t10x234x140 С235 " drawingType="1" id="59C40">
+<SingleParts>
+<Item>44</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="30" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.30.dwg" id="541D9" prototypeName="RUS-STAMP-A3">
 <SingleParts>
 <Item>18</Item></SingleParts>
 <DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.18 (1 шт.) С24Пx413 С235 " drawingType="1" id="541D8">
 <SingleParts>
 <Item>18</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="15" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.15.dwg" id="5419D" prototypeName="RUS-STAMP-A3">
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="26" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.26.dwg" id="541C9" prototypeName="RUS-STAMP-A3">
 <SingleParts>
-<Item>3</Item></SingleParts>
-<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.3 (2 шт.) С24Пx365 С235 " drawingType="1" id="5419C">
+<Item>14</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:20" Status="Соответствует модели" Title="поз.14 (1 шт.) С24Пx1734 С235 " drawingType="1" id="541C8">
 <SingleParts>
-<Item>3</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="01" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Б1-1 л.01.dwg" id="5400D" prototypeName="RUS-STAMP-KMD-A3-H">
-<MainParts>
-<Item>Б1-1</Item></MainParts>
-<DetailObject DetailName="2F49" DrawingStyle="Процесс - Балка, разрезы автоматически" ProcessDescription="Все Гл.Профили По № поз. На отд.листах A3 [25.09.2023, 14:16:52]" Scale="1:10" Status="Соответствует модели" Title="Марка Б1-1 (2 шт.)" drawingType="2" id="5400C">
-<MainParts>
-<Item>Б1-1</Item></MainParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="13" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ7-1 л.13.dwg" id="5416D" prototypeName="RUS-STAMP-KMD-A3-H">
-<MainParts>
-<Item>ЛМ7-1</Item></MainParts>
-<DetailObject DetailName="2F49" DrawingStyle="Косоур - спереди" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [25.09.2023, 14:42:48]" Scale="1:10" Status="Соответствует модели" Title="Косоур ЛМ7-1 (1 шт.)" drawingType="2" id="5416C">
-<MainParts>
-<Item>ЛМ7-1</Item></MainParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="03" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ1-1 л.03.dwg" id="54019" prototypeName="RUS-STAMP-KMD-A3-H">
-<MainParts>
-<Item>ЛМ1-1</Item></MainParts>
-<DetailObject DetailName="2F49" DrawingStyle="Косоур - спереди" ProcessDescription="Все Гл.Профили По № поз. На отд.листах A3 [25.09.2023, 14:16:52]" Scale="1:20" Status="Соответствует модели" Title="Косоур ЛМ1-1 (1 шт.)" drawingType="2" id="54018">
-<MainParts>
-<Item>ЛМ1-1</Item></MainParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="10" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Ст1-1 л.10.dwg" id="5404B" prototypeName="RUS-STAMP-KMD-A3-H">
-<MainParts>
-<Item>Ст1-1</Item></MainParts>
-<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Все Гл.Профили По № поз. На отд.листах A3 [25.09.2023, 14:16:52]" Scale="1:20" Status="Соответствует модели" Title="Марка Ст1-1 (1 шт.)" drawingType="2" id="5404A">
-<MainParts>
-<Item>Ст1-1</Item></MainParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="25" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.25.dwg" id="541C5" prototypeName="RUS-STAMP-A3">
+<Item>14</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="25" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.25.dwg" id="541C5" prototypeName="RUS-STAMP-A3">
 <SingleParts>
 <Item>13</Item></SingleParts>
 <DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:20" Status="Соответствует модели" Title="поз.13 (1 шт.) С24Пx4025 С235 " drawingType="1" id="541C4">
 <SingleParts>
 <Item>13</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="31" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.31.dwg" id="541DE" prototypeName="RUS-STAMP-KMD-A4-V">
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="05.10.2023" drawingNumber="51" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.51.dwg" id="59C45" prototypeName="RUS-STAMP-KMD-A4-V">
 <SingleParts>
-<Item>19</Item></SingleParts>
-<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Пластины По № поз. На отд.листах A4 [25.09.2023, 16:31:56]" Scale="1:5" Status="Соответствует модели" Title="поз.19 (10 шт.) t8x230x100 С235 " drawingType="1" id="541DD">
+<Item>45</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [05.10.2023, 16:07:04]" Scale="1:5" Status="Соответствует модели" Title="поз.45 (1 шт.) t8x205x160 С235 " drawingType="1" id="59C44">
 <SingleParts>
-<Item>19</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="23" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.23.dwg" id="541BD" prototypeName="RUS-STAMP-A3">
-<SingleParts>
-<Item>11</Item></SingleParts>
-<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:20" Status="Соответствует модели" Title="поз.11 (1 шт.) С24Пx4417 С235 " drawingType="1" id="541BC">
-<SingleParts>
-<Item>11</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="29" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.29.dwg" id="541D5" prototypeName="RUS-STAMP-A3">
-<SingleParts>
-<Item>17</Item></SingleParts>
-<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.17 (1 шт.) С24Пx413 С235 " drawingType="1" id="541D4">
-<SingleParts>
-<Item>17</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="14" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.14.dwg" id="54199" prototypeName="RUS-STAMP-A3">
-<SingleParts>
-<Item>2</Item></SingleParts>
-<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.2 (2 шт.) С24Пx535 С235 " drawingType="1" id="54198">
-<SingleParts>
-<Item>2</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="36" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.36.dwg" id="541F2" prototypeName="RUS-STAMP-KMD-A4-V">
-<SingleParts>
-<Item>24</Item></SingleParts>
-<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Пластины По № поз. На отд.листах A4 [25.09.2023, 16:31:56]" Scale="1:5" Status="Соответствует модели" Title="поз.24 (2 шт.) t10x550x140 С235 " drawingType="1" id="541F1">
-<SingleParts>
-<Item>24</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="27" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.27.dwg" id="541CD" prototypeName="RUS-STAMP-A3">
-<SingleParts>
-<Item>15</Item></SingleParts>
-<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:20" Status="Соответствует модели" Title="поз.15 (1 шт.) С24Пx1734 С235 " drawingType="1" id="541CC">
-<SingleParts>
-<Item>15</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="05" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ2-1 л.05.dwg" id="54147" prototypeName="RUS-STAMP-KMD-A3-H">
-<MainParts>
-<Item>ЛМ2-1</Item></MainParts>
-<DetailObject DetailName="2F49" DrawingStyle="Косоур - спереди" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [25.09.2023, 14:42:48]" Scale="1:20" Status="Соответствует модели" Title="Косоур ЛМ2-1 (1 шт.)" drawingType="2" id="54146">
-<MainParts>
-<Item>ЛМ2-1</Item></MainParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="21" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.21.dwg" id="541B5" prototypeName="RUS-STAMP-A3">
-<SingleParts>
-<Item>9</Item></SingleParts>
-<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.9 (1 шт.) Гн.&#x9;160x5x1832 С235 " drawingType="1" id="541B4">
-<SingleParts>
-<Item>9</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="33" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.33.dwg" id="541E6" prototypeName="RUS-STAMP-KMD-A4-V">
+<Item>45</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="33" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.33.dwg" id="541E6" prototypeName="RUS-STAMP-KMD-A4-V">
 <SingleParts>
 <Item>21</Item></SingleParts>
 <DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Пластины По № поз. На отд.листах A4 [25.09.2023, 16:31:56]" Scale="1:5" Status="Соответствует модели" Title="поз.21 (6 шт.) t8x230x60 С235 " drawingType="1" id="541E5">
 <SingleParts>
 <Item>21</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="34" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.34.dwg" id="541EA" prototypeName="RUS-STAMP-KMD-A4-V">
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="27" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.27.dwg" id="541CD" prototypeName="RUS-STAMP-A3">
 <SingleParts>
-<Item>22</Item></SingleParts>
-<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Пластины По № поз. На отд.листах A4 [25.09.2023, 16:31:56]" Scale="1:5" Status="Соответствует модели" Title="поз.22 (3 шт.) t10x300x190 С235 " drawingType="1" id="541E9">
+<Item>15</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:20" Status="Соответствует модели" Title="поз.15 (1 шт.) С24Пx1734 С235 " drawingType="1" id="541CC">
 <SingleParts>
-<Item>22</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="06" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ3-1 л.06.dwg" id="5414F" prototypeName="RUS-STAMP-KMD-A3-H">
+<Item>15</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="44" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.44.dwg" id="56A9E" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>31</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.09.2023, 14:03:33]" Scale="1:5" Status="Соответствует модели" Title="поз.31 (6 шт.) t10x120x70 С235 " drawingType="1" id="56A9D">
+<SingleParts>
+<Item>31</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="05.10.2023" drawingNumber="41" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="СВ1-1 л.41.dwg" id="56A8D" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>СВ1-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Балка, разрезы автоматически" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [29.09.2023, 13:49:33]" Scale="1:10" Status="Соответствует модели" Title="Марка СВ1-1 (1 шт.)" drawingType="2" id="56A8C">
+<MainParts>
+<Item>СВ1-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="05.10.2023" drawingNumber="13" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ7-1 л.13.dwg" id="5416D" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>ЛМ7-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Косоур - спереди" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [25.09.2023, 14:42:48]" Scale="1:10" Status="Соответствует модели" Title="Косоур ЛМ7-1 (1 шт.)" drawingType="2" id="5416C">
+<MainParts>
+<Item>ЛМ7-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="06" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ3-1 л.06.dwg" id="5414F" prototypeName="RUS-STAMP-KMD-A3-H">
 <MainParts>
 <Item>ЛМ3-1</Item></MainParts>
 <DetailObject DetailName="2F49" DrawingStyle="Косоур - спереди" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [25.09.2023, 14:42:48]" Scale="1:20" Status="Соответствует модели" Title="Косоур ЛМ3-1 (1 шт.)" drawingType="2" id="5414E">
 <MainParts>
 <Item>ЛМ3-1</Item></MainParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="12" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Ст3-1 л.12.dwg" id="54053" prototypeName="RUS-STAMP-KMD-A3-H">
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="21" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.21.dwg" id="541B5" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>9</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.9 (1 шт.) Гн.&#x9;160x5x1832 С235 " drawingType="1" id="541B4">
+<SingleParts>
+<Item>9</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="22" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.22.dwg" id="541B9" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>10</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:20" Status="Соответствует модели" Title="поз.10 (1 шт.) С24Пx4417 С235 " drawingType="1" id="541B8">
+<SingleParts>
+<Item>10</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="06.10.2023" drawingNumber="39" drawingType="0" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Вид сверху.dwg" id="5421F" prototypeName="RUS-STAMP-A3 — копия">
+<DetailObject DetailName="23CA" DrawingStyle="Вид В маркировка КМД" Scale="1:50" Status="Соответствует модели" Title="Вид сверху " drawingType="0" id="5421E"/></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="34" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.34.dwg" id="541EA" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>22</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Пластины По № поз. На отд.листах A4 [25.09.2023, 16:31:56]" Scale="1:5" Status="Соответствует модели" Title="поз.22 (3 шт.) t10x300x190 С235 " drawingType="1" id="541E9">
+<SingleParts>
+<Item>22</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="03" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ1-1 л.03.dwg" id="54019" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>ЛМ1-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Косоур - спереди" ProcessDescription="Все Гл.Профили По № поз. На отд.листах A3 [25.09.2023, 14:16:52]" Scale="1:20" Status="Соответствует модели" Title="Косоур ЛМ1-1 (1 шт.)" drawingType="2" id="54018">
+<MainParts>
+<Item>ЛМ1-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="19" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.19.dwg" id="541AD" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>7</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.7 (1 шт.) Гн.&#x9;200x6x4532 С235 " drawingType="1" id="541AC">
+<SingleParts>
+<Item>7</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="06.10.2023" drawingNumber="53" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.53.dwg" id="59CDE" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>29</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Эл-ты По № поз. На отд.листах A3 [06.10.2023, 11:27:50]" Scale="1:5" Status="Соответствует модели" Title="поз.29 (1 шт.) Гн.  100x50x4x3782 С235 " drawingType="1" id="59CDD">
+<SingleParts>
+<Item>29</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="05" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ2-1 л.05.dwg" id="54147" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>ЛМ2-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Косоур - спереди" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [25.09.2023, 14:42:48]" Scale="1:20" Status="Соответствует модели" Title="Косоур ЛМ2-1 (1 шт.)" drawingType="2" id="54146">
+<MainParts>
+<Item>ЛМ2-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="05.10.2023" drawingNumber="49" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.49.dwg" id="59C3D" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>43</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [05.10.2023, 16:07:04]" Scale="1:5" Status="Соответствует модели" Title="поз.43 (1 шт.) t8x220x100 С235 " drawingType="1" id="59C3C">
+<SingleParts>
+<Item>43</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="12" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Ст3-1 л.12.dwg" id="54053" prototypeName="RUS-STAMP-KMD-A3-H">
 <MainParts>
 <Item>Ст3-1</Item></MainParts>
 <DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Все Гл.Профили По № поз. На отд.листах A3 [25.09.2023, 14:16:52]" Scale="1:20" Status="Соответствует модели" Title="Марка Ст3-1 (1 шт.)" drawingType="2" id="54052">
 <MainParts>
 <Item>Ст3-1</Item></MainParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="16" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.16.dwg" id="541A1" prototypeName="RUS-STAMP-A3">
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="06.10.2023" drawingNumber="40" drawingType="0" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Вид по оси А.dwg" id="54223" prototypeName="RUS-STAMP-A3 — копия">
+<DetailObject DetailName="23CA" DrawingStyle="Вид В маркировка КМД" Scale="1:50" Status="Соответствует модели" Title="Вид" drawingType="0" id="54222"/></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="23" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.23.dwg" id="541BD" prototypeName="RUS-STAMP-A3">
 <SingleParts>
-<Item>4</Item></SingleParts>
-<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.4 (2 шт.) С24Пx365 С235 " drawingType="1" id="541A0">
+<Item>11</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:20" Status="Соответствует модели" Title="поз.11 (1 шт.) С24Пx4417 С235 " drawingType="1" id="541BC">
 <SingleParts>
-<Item>4</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="28" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.28.dwg" id="541D1" prototypeName="RUS-STAMP-A3">
+<Item>11</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="35" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.35.dwg" id="541EE" prototypeName="RUS-STAMP-KMD-A4-V">
 <SingleParts>
-<Item>16</Item></SingleParts>
-<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.16 (1 шт.) С24Пx1020 С235 " drawingType="1" id="541D0">
+<Item>23</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Пластины По № поз. На отд.листах A4 [25.09.2023, 16:31:56]" Scale="1:5" Status="Соответствует модели" Title="поз.23 (2 шт.) t20x380x380 С235 " drawingType="1" id="541ED">
 <SingleParts>
-<Item>16</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="09" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ6-1 л.09.dwg" id="54167" prototypeName="RUS-STAMP-KMD-A3-H">
+<Item>23</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="05.10.2023" drawingNumber="11" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Ст2-1 л.11.dwg" id="5404F" prototypeName="RUS-STAMP-KMD-A3-H">
 <MainParts>
-<Item>ЛМ6-1</Item></MainParts>
-<DetailObject DetailName="2F49" DrawingStyle="Косоур - спереди" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [25.09.2023, 14:42:48]" Scale="1:20" Status="Соответствует модели" Title="Косоур ЛМ6-1 (1 шт.)" drawingType="2" id="54166">
+<Item>Ст2-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Все Гл.Профили По № поз. На отд.листах A3 [25.09.2023, 14:16:52]" Scale="1:20" Status="Соответствует модели" Title="Марка Ст2-1 (1 шт.)" drawingType="2" id="5404E">
 <MainParts>
-<Item>ЛМ6-1</Item></MainParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="04" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.04.dwg" id="54195" prototypeName="RUS-STAMP-A3">
+<Item>Ст2-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="14" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.14.dwg" id="54199" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>2</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.2 (2 шт.) С24Пx535 С235 " drawingType="1" id="54198">
+<SingleParts>
+<Item>2</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="47" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.47.dwg" id="56AAA" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>34</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.09.2023, 14:03:33]" Scale="1:5" Status="Соответствует модели" Title="поз.34 (1 шт.) t10x335x163 С235 " drawingType="1" id="56AA9">
+<SingleParts>
+<Item>34</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="06.10.2023" drawingNumber="52" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.52.dwg" id="59CDA" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>28</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Эл-ты По № поз. На отд.листах A3 [06.10.2023, 11:27:50]" Scale="1:5" Status="Соответствует модели" Title="поз.28 (1 шт.) Гн.  100x50x4x4345 С235 " drawingType="1" id="59CD9">
+<SingleParts>
+<Item>28</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="05.10.2023" drawingNumber="46" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="СВ3-1 л.46.dwg" id="599E3" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>СВ3-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Распорная труба - спереди,снизу" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [05.10.2023, 15:40:01]" Scale="1:5" Status="Соответствует модели" Title="Связь СВ3-1 (1 шт.)" drawingType="2" id="599E2">
+<MainParts>
+<Item>СВ3-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="04" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.04.dwg" id="54195" prototypeName="RUS-STAMP-A3">
 <SingleParts>
 <Item>1</Item></SingleParts>
 <DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.1 (3 шт.) I25Б1x1200 С235 " drawingType="1" id="54194">
 <SingleParts>
 <Item>1</Item></SingleParts></DetailObject></DetailFile>
-<DetailFile ApprovalStatus="Не установлено" DrawingDate="25.09.2023" drawingNumber="18" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.18.dwg" id="541A9" prototypeName="RUS-STAMP-A3">
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="28" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.28.dwg" id="541D1" prototypeName="RUS-STAMP-A3">
 <SingleParts>
-<Item>6</Item></SingleParts>
-<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.6 (2 шт.) С24Пx348 С235 " drawingType="1" id="541A8">
+<Item>16</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.16 (1 шт.) С24Пx1020 С235 " drawingType="1" id="541D0">
 <SingleParts>
-<Item>6</Item></SingleParts></DetailObject></DetailFile></Details>
+<Item>16</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="36" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.36.dwg" id="541F2" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>24</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Пластины По № поз. На отд.листах A4 [25.09.2023, 16:31:56]" Scale="1:5" Status="Соответствует модели" Title="поз.24 (2 шт.) t10x550x140 С235 " drawingType="1" id="541F1">
+<SingleParts>
+<Item>24</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="31" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.31.dwg" id="541DE" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>19</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Пластины По № поз. На отд.листах A4 [25.09.2023, 16:31:56]" Scale="1:5" Status="Соответствует модели" Title="поз.19 (10 шт.) t8x230x100 С235 " drawingType="1" id="541DD">
+<SingleParts>
+<Item>19</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="15" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.15.dwg" id="5419D" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>3</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.3 (2 шт.) С24Пx365 С235 " drawingType="1" id="5419C">
+<SingleParts>
+<Item>3</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="09" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="ЛМ6-1 л.09.dwg" id="54167" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>ЛМ6-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Косоур - спереди" ProcessDescription="Выбранные Гл.эл-ты По № поз. На отд.листах A3 [25.09.2023, 14:42:48]" Scale="1:20" Status="Соответствует модели" Title="Косоур ЛМ6-1 (1 шт.)" drawingType="2" id="54166">
+<MainParts>
+<Item>ЛМ6-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="29" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.29.dwg" id="541D5" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>17</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.17 (1 шт.) С24Пx413 С235 " drawingType="1" id="541D4">
+<SingleParts>
+<Item>17</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="02" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Б1-2 л.02.dwg" id="54011" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>Б1-2</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Балка, разрезы автоматически" ProcessDescription="Все Гл.Профили По № поз. На отд.листах A3 [25.09.2023, 14:16:52]" Scale="1:10" Status="Соответствует модели" Title="Марка Б1-2 (1 шт.)" drawingType="2" id="54010">
+<MainParts>
+<Item>Б1-2</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="48" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.48.dwg" id="56AAE" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>35</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.09.2023, 14:03:33]" Scale="1:5" Status="Соответствует модели" Title="поз.35 (1 шт.) t10x314x163 С235 " drawingType="1" id="56AAD">
+<SingleParts>
+<Item>35</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="05.10.2023" drawingNumber="43" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.43.dwg" id="56A9A" prototypeName="RUS-STAMP-KMD-A4-V">
+<SingleParts>
+<Item>30</Item></SingleParts>
+<DetailObject DetailName="1D6C" DrawingStyle="Процесс - ОтдДет пластина 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Выбранные Отд.Пластины По № поз. На отд.листах A4 [29.09.2023, 14:03:33]" Scale="1:5" Status="Соответствует модели" Title="поз.30 (5 шт.) t8x120x110 С235 " drawingType="1" id="56A99">
+<SingleParts>
+<Item>30</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="16" drawingType="1" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="л.16.dwg" id="541A1" prototypeName="RUS-STAMP-A3">
+<SingleParts>
+<Item>4</Item></SingleParts>
+<DetailObject DetailName="235C" DrawingStyle="Процесс - ОтдДет Профиль 1:10 разрывы по X ГлДетКол-во" ProcessDescription="Все Отд.Профили По № поз. На отд.листах A3 [25.09.2023, 16:06:41]" Scale="1:10" Status="Соответствует модели" Title="поз.4 (2 шт.) С24Пx365 С235 " drawingType="1" id="541A0">
+<SingleParts>
+<Item>4</Item></SingleParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="04.10.2023" drawingNumber="01" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Б1-1 л.01.dwg" id="5400D" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>Б1-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Балка, разрезы автоматически" ProcessDescription="Все Гл.Профили По № поз. На отд.листах A3 [25.09.2023, 14:16:52]" Scale="1:10" Status="Соответствует модели" Title="Марка Б1-1 (2 шт.)" drawingType="2" id="5400C">
+<MainParts>
+<Item>Б1-1</Item></MainParts></DetailObject></DetailFile>
+<DetailFile ApprovalStatus="Не установлено" DrawingDate="06.10.2023" drawingNumber="10" drawingType="2" fileLocation="D:\Объекты\Lestn_2\Lestnitca_2\Details\" fileName="Ст1-1 л.10.dwg" id="5404B" prototypeName="RUS-STAMP-KMD-A3-H">
+<MainParts>
+<Item>Ст1-1</Item></MainParts>
+<DetailObject DetailName="2F49" DrawingStyle="Процесс - Колонна, разрезы автоматически" ProcessDescription="Все Гл.Профили По № поз. На отд.листах A3 [25.09.2023, 14:16:52]" Scale="1:20" Status="Соответствует модели" Title="Марка Ст1-1 (1 шт.)" drawingType="2" id="5404A">
+<MainParts>
+<Item>Ст1-1</Item></MainParts></DetailObject></DetailFile></Details>
 <BOMs/>
 <DSTVFiles/></DerivedDocuments></modelExtract>
 
